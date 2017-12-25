@@ -16,4 +16,11 @@ export class AppComponent {
     id: 1,
     item: "カレーを作る"
   }]
+
+  onCreateTodo(todo) {
+    this.todos.push({
+      id: todo.id,
+      item: todo.item
+    });
+  }
 }
