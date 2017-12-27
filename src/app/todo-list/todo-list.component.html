@@ -2,6 +2,6 @@
   <li *ngFor="let todo of todos">
     {{todo.id}}
     {{todo.item}}
+    <button (click)="onDeleteTodo(todo)">削除</button>
   </li>
 </ul>
-
