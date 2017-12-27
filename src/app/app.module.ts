@@ -14,7 +14,7 @@ import { TodoFormComponent } from './todo-form/todo-form.component';
     TodoFormComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
     FormsModule
   ],
   providers: [],
